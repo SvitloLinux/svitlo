@@ -70,6 +70,16 @@ The goal is to have a system that the user can use immediately after installatio
 
 
 
+[![Patreon](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+)](https://t.me/SvitloLinux) 
+
+
+
+
+
+
+
+
 <!---------------------------------[  ]---------------------------------->
 
 <!-- Its main projects
