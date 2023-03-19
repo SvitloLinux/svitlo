@@ -31,18 +31,36 @@
 
 
 
-### Завантажити  
-<p><a href="https://svitlo-source.kachanyuk.com/download//linux/svitlo/img/v0.2/svitlo.img.zst"> ➡️ svitlo.img </a></p>
-
-`login: root
-password: password`
-
-sha512sum svitlo.img
-1e89e38e42497ceb4e981148f3608bdcbdc4b3d00bf387eae3ebd2916e5e6dbf182a25b54438398e7978243055f859488771b0edb5c7edb0ddf6708fbbd5d21f
+### Завантажити svitlo.img.zs (2.8 GB) потім розпакувати файл svitlo.img (10 GB)
+<p><a href="https://svitlo-source.kachanyuk.com/download/linux/svitlo/img/v0.2/svitlo.img.zst"> ➡️ svitlo.img </a></p>
 
 
 ### Встановити zstd
 <p><a href="https://github.com/facebook/zstd/releases/tag/v1.5.4"> ➡️ zstd </a></p>
+
+### Перевірити 
+
+**sha512sum svitlo.img**
+1e89e38e42497ceb4e981148f3608bdcbdc4b3d00bf387eae3ebd2916e5e6dbf182a25b54438398e7978243055f859488771b0edb5c7edb0ddf6708fbbd5d21f
+
+**sha512sum svitlo.img.zst**
+5840bd1762231b1fd96d66a7f48dbcdb0ec93897d18e0d7f17191d6df98e3f71e462f144cccbad1541e6e2a36364d41dd328592d32de1549d8a41ab338b4e250
+
+
+#### Варіант запуску
+qemu-system-x86_64 -drive format=raw,file=svitlo.img -net nic -net user
+
+`login: root
+password: password`
+
+
+
+
+
+
+
+
+
 
 > #### Copyright (C) 2023 Yurii Kachaniuk - Ukraine <wku@ukr.net>
 
